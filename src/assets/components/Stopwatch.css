@@ -1,0 +1,43 @@
+.stopwatch {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+}
+
+.stopwatch_display_buttons {
+  width: 400px;
+  border: 1px solid #cdcdcd;
+  padding: 0px 40px 20px 40px;
+  /* display: flex; */
+  /* flex-direction: column; */
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.display{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0px 40px;
+  border: 1px solid #cdcdcd;
+  border-radius: 8px;
+  /* padding: 5px 0px; */
+}
+
+.stopwatch_img img{
+  height: 60px;
+  /* width: 50px; */
+}
+
+.stopwatch_img h1{
+  color: #cdcdcd;
+}
+
+.LapList{
+  width: 40%;
+  display: flex;
+  justify-content: center;
+}
